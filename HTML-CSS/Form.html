@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html>
+<style>
+    
+    .content {
+        font-family: 'Century Gothic', sans-serif;
+    }
+    .content a{
+        text-decoration: none;
+        color: #19bd9b;
+
+    }
+    .main-form{
+    width: 450px;
+    height: 100%;
+    border: 2px solid #cccccc;
+    padding: 20px;
+    line-height: 1px;
+    margin: auto;
+    margin-top: 3%;
+    font-family: 'Century Gothic', sans-serif;
+    }
+    #br {
+        width: 100%;
+        height: 50px;
+        margin-top: -20px;
+        margin-left: -20px;
+        padding-top: 20px;
+        padding-left: 20px;
+        padding-bottom:20px;
+        padding-right: 20px;
+        background-color: #bcc3cb;
+    }
+    #title{
+        width: 100%;
+        height: 20px;
+        border-radius: 5px 5px 5px 5px;
+    }
+    
+    #ta{
+        width: 100%;
+        border-radius: 5px 5px 5px 5px;
+    }
+    .os select{
+        border: 1px solid #19bd9b;
+        border-radius: 5px 5px 5px 5px;
+        width: 100%;
+        height: 30px;
+        padding: 3px;
+        color: #ffff;
+        background-color: #19bd9b;
+    }
+    #product{
+        width: 100%;
+        height: 20px;
+    }
+    .product select{
+        border: 1px solid #19bd9b;
+        border-radius: 5px 5px 5px 5px;
+        width: 100%;
+        height: 30px;
+        padding: 3px;
+        color: #ffff;
+        background-color: #19bd9b;
+    }
+    #vtf{
+        width: 20%;
+        height: 20px;
+        border-radius: 5px 5px 5px 5px;
+    }
+    .sev select{
+        border: 1px solid #19bd9b;
+        border-radius: 5px 5px 5px 5px;
+        width: 100%;
+        height: 30px;
+        padding: 3px;
+        color: #ffff;
+        background-color: #19bd9b;
+    }
+    #attach{
+        width: 70%;
+        height: 20px;
+        border-radius: 5px 0px 0px 5px
+    }
+    #ch{
+        width: 28%;
+        height: 25px;
+        border: 1px solid #bcc3cb;
+        border-radius: 0px 5px 5px 0px; 
+        background-color: #bcc3cb;
+        color: #ffff;
+        margin-left: -4px;
+    }
+    #cf{
+        width: 100%;
+        height: 20px;
+    }
+    .att{
+        margin-bottom: 15px;
+    }
+    .submit{
+        width: 100%;
+        height: 50px;
+        margin-bottom: -20px;
+        margin-left: -20px;
+        padding-top: 20px;
+        padding-left: 20px;
+        padding-right: 20px;
+        background-color: #eeeff1;
+    }
+    #snd{
+        margin: 5px 370px;
+        width: 15%;
+        height: 60%;
+        border: 1px solid #19bd9b;
+        border-radius: 5px 5px 5px 5px; 
+        background-color: #19bd9b;
+        color: #ffff;
+    }
+    
+</style>
+<head>
+    <title>
+        ::Form::
+    </title>
+</head>
+<div class="content">
+
+<a href="" style="margin-left: 25%">TO THE NEW</a>
+<a href="" style="margin-left: 40%">Home</a>
+<a href="" style="margin-left: 3%">Quick Help</a>
+<hr>
+</div>
+<div class="main-form">
+    <div id="br">
+    <h1 style="color: #ffff;">Bug Report</h1>
+    </div>
+    <div class="form">
+        <form>
+            <p>Title:*</p>
+            <input type="text" id="title" placeholder="">
+            <p>Description:*</p>
+            <textarea id = "ta" rows="4" cols="50">
+            
+            </textarea>
+            
+            <p>Operating System:</p>
+            <div class="os">
+            <select>
+                <option value="1">Windows XP</option>
+                <option value="2">Windows 7</option>
+                <option value="3">Windows 8</option>
+            </select>
+            </div>
+            
+            <p>Products:*</p>
+            <div class="product">
+            <select>
+                <option value="1">Formoid</option>
+                <option value="2">Laptop</option>
+                <option value="3">Mobile</option>
+                <option value="4">PC</option>
+            </select>
+            </div>
+            
+            <p>Versions:*</p>
+            <input type="text" id="vtf" placeholder="">
+                
+            <p>License:</p>
+            <div id="sl">
+            <input type="radio" name="opt1" value="Free" >
+            <label for="opt1" >Free</label>
+            <input type="radio" name="opt2" value="Business" style="margin-left:150px";>
+            <label for="opt2">Business</label>
+            </div>
+            
+                
+            <p>Severity:</p>
+            <div class="sev">
+            <select>
+                <option value="1">Critical</option>
+            </select>
+            </div>
+            
+            <p>Attachments:</p>
+            <div class="att">
+            <input type="text" id="attach" placeholder="No file selected">
+            <input type="submit" id="ch" value="Choose File">
+            </div>
+            
+            
+            <div class="submit">
+            <input type="submit" id="snd" value="Send">
+            </div>
+        </form>
+    </div>
+</div>
+</html>
