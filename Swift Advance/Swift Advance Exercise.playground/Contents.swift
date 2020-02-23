@@ -65,6 +65,8 @@ extension UseOfExtension : UITextFieldDelegate {
 }
 
 
+
+
 //Write a protocol and create an extension of the protocol.
 protocol Statement{
         //code
@@ -77,6 +79,8 @@ extension Printing{
           print("Hello!")
     }
 }
+
+
 
 
 //Explain generic with an example
@@ -108,6 +112,16 @@ print(newstr1)
 
 
 
+// Write an example of reduce function with initial value 1000.
+
+let num = Array(100...200)
+
+let reducedNumbers = num.reduce(1000, {x, y in
+    x + y
+})
+
+
+
 /*
   struct Person {
     
@@ -136,4 +150,34 @@ let person4 = Person(name: "Luke", age: 20)
 let personArray = [person1, person2, person3, person4]
 var new = personArray.filter {($0.age > 25) }
 print(new)
+
+
+
+// 10. Make a property wrapper @nonNegative and use it to make values to 0 if any negative value added to a variable.
+
+@propertyWrapper
+struct nonNegativeNumber < Value : BinaryInteger> {
+
+    var value : Value
+
+    init(wrappedValue : Value) {
+        self.value = wrappedValue
+    }
+
+    var wrappedValue : Value {
+        get { value }
+
+        set {
+            if newValue < 0 {
+                value = 0
+            }
+
+            else {
+                value = newValue
+            }
+        }
+
+    }
+
+}
 
