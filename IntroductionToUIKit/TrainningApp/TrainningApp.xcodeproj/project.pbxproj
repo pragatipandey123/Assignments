@@ -86,6 +86,18 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0A2676FB240FAB4700D29DCC /* Session1 */ = {
+			isa = PBXGroup;
+			children = (
+				0A8B128424065C5C00D6B5C9 /* ViewController.swift */,
+				0A8B12B324065CC500D6B5C9 /* ViewController1.swift */,
+				0A8B12B524065CD100D6B5C9 /* ViewController2.swift */,
+				0A8B12B724065CDA00D6B5C9 /* ViewController3.swift */,
+				0A8B12B924065CE300D6B5C9 /* ViewController4.swift */,
+			);
+			path = Session1;
+			sourceTree = "<group>";
+		};
 		0A8B127424065C5C00D6B5C9 = {
 			isa = PBXGroup;
 			children = (
@@ -109,13 +121,9 @@
 		0A8B127F24065C5C00D6B5C9 /* TrainningApp */ = {
 			isa = PBXGroup;
 			children = (
+				0A2676FB240FAB4700D29DCC /* Session1 */,
 				0A8B128024065C5C00D6B5C9 /* AppDelegate.swift */,
 				0A8B128224065C5C00D6B5C9 /* SceneDelegate.swift */,
-				0A8B128424065C5C00D6B5C9 /* ViewController.swift */,
-				0A8B12B324065CC500D6B5C9 /* ViewController1.swift */,
-				0A8B12B524065CD100D6B5C9 /* ViewController2.swift */,
-				0A8B12B724065CDA00D6B5C9 /* ViewController3.swift */,
-				0A8B12B924065CE300D6B5C9 /* ViewController4.swift */,
 				0A8B128624065C5C00D6B5C9 /* Main.storyboard */,
 				0A8B128C24065C5D00D6B5C9 /* Assets.xcassets */,
 				0A8B128E24065C5D00D6B5C9 /* LaunchScreen.storyboard */,
