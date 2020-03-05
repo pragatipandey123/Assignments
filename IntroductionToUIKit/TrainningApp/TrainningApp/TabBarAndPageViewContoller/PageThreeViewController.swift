@@ -1,31 +1,22 @@
 //
-//  ViewController1.swift
+//  PageThreeViewController.swift
 //  TrainningApp
 //
-//  Created by Pragati Pandey on 26/02/20.
+//  Created by Pragati Pandey on 05/03/20.
 //  Copyright © 2020 PragatiPandey. All rights reserved.
 //
 
 import UIKit
 
-class ViewController1: UIViewController {
+class PageThreeViewController: UIViewController {
 
-    static let string = "String of first VC"
     override func viewDidLoad() {
         super.viewDidLoad()
-        
-        self.title = "First View Controller"
-        self.view.backgroundColor = .systemGreen
+
         // Do any additional setup after loading the view.
-        
     }
     
 
-    @IBAction func buttonTapped(){
-        self.dismiss(animated: true, completion: nil)
-    }
-        
-   
     /*
     // MARK: - Navigation
 

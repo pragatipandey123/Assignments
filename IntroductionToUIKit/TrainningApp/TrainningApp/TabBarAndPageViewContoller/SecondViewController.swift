@@ -1,5 +1,5 @@
 //
-//  ViewController2.swift
+//  ViewController1.swift
 //  TrainningApp
 //
 //  Created by Pragati Pandey on 26/02/20.
@@ -8,26 +8,24 @@
 
 import UIKit
 
-class ViewController2: UIViewController {
+class SecondViewController: UIViewController {
 
+    static let string = "String of first VC"
     override func viewDidLoad() {
         super.viewDidLoad()
-        self.view.backgroundColor = .systemYellow
+        
         self.title = "Second View Controller"
+        self.view.backgroundColor = .systemGreen
         // Do any additional setup after loading the view.
+        
     }
     
-    @IBAction func button1Tapped() {
-        let storyBoard = UIStoryboard.init(name: "Main", bundle: nil)
-        let vc = storyBoard.instantiateViewController(withIdentifier: "ViewController3")
-        self.navigationController!.pushViewController(vc, animated: true)
-    }
-    
-    
-    @IBAction func button2Tapped() {
-        self.navigationController?.popViewController(animated: true)
-    }
 
+    @IBAction func buttonTapped(){
+        self.dismiss(animated: true, completion: nil)
+    }
+        
+   
     /*
     // MARK: - Navigation
 
