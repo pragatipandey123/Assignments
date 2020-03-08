@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0A3EA4722414D44E0070AEEE /* ThirdAutoLayoutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A3EA4712414D44E0070AEEE /* ThirdAutoLayoutViewController.swift */; };
 		0A8B128124065C5C00D6B5C9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A8B128024065C5C00D6B5C9 /* AppDelegate.swift */; };
 		0A8B128324065C5C00D6B5C9 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A8B128224065C5C00D6B5C9 /* SceneDelegate.swift */; };
 		0A8B128524065C5C00D6B5C9 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A8B128424065C5C00D6B5C9 /* FirstViewController.swift */; };
@@ -20,6 +21,8 @@
 		0A8B12B624065CD100D6B5C9 /* ThirdViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A8B12B524065CD100D6B5C9 /* ThirdViewController.swift */; };
 		0A8B12B824065CDA00D6B5C9 /* FourthViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A8B12B724065CDA00D6B5C9 /* FourthViewController.swift */; };
 		0A8B12BA24065CE300D6B5C9 /* FifthViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A8B12B924065CE300D6B5C9 /* FifthViewController.swift */; };
+		0AA58CB624115D92000E65C0 /* FirstAutoLayoutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AA58CB524115D92000E65C0 /* FirstAutoLayoutViewController.swift */; };
+		0AA58CB824115DA8000E65C0 /* SecondAutoLayoutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AA58CB724115DA8000E65C0 /* SecondAutoLayoutViewController.swift */; };
 		0AE7E00E2410FD100057825E /* MainPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AE7E00D2410FD100057825E /* MainPageViewController.swift */; };
 		0AE7E0102410FD260057825E /* PageOneViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AE7E00F2410FD260057825E /* PageOneViewController.swift */; };
 		0AE7E0142410FD590057825E /* PageTwoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AE7E0132410FD590057825E /* PageTwoViewController.swift */; };
@@ -44,6 +47,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0A3EA4712414D44E0070AEEE /* ThirdAutoLayoutViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThirdAutoLayoutViewController.swift; sourceTree = "<group>"; };
 		0A8B127D24065C5C00D6B5C9 /* TrainningApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TrainningApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0A8B128024065C5C00D6B5C9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		0A8B128224065C5C00D6B5C9 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -63,6 +67,8 @@
 		0A8B12B524065CD100D6B5C9 /* ThirdViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThirdViewController.swift; sourceTree = "<group>"; };
 		0A8B12B724065CDA00D6B5C9 /* FourthViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FourthViewController.swift; sourceTree = "<group>"; };
 		0A8B12B924065CE300D6B5C9 /* FifthViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FifthViewController.swift; sourceTree = "<group>"; };
+		0AA58CB524115D92000E65C0 /* FirstAutoLayoutViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstAutoLayoutViewController.swift; sourceTree = "<group>"; };
+		0AA58CB724115DA8000E65C0 /* SecondAutoLayoutViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondAutoLayoutViewController.swift; sourceTree = "<group>"; };
 		0AE7E00D2410FD100057825E /* MainPageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainPageViewController.swift; sourceTree = "<group>"; };
 		0AE7E00F2410FD260057825E /* PageOneViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageOneViewController.swift; sourceTree = "<group>"; };
 		0AE7E0132410FD590057825E /* PageTwoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageTwoViewController.swift; sourceTree = "<group>"; };
@@ -134,8 +140,9 @@
 			isa = PBXGroup;
 			children = (
 				0A2676FB240FAB4700D29DCC /* TabBarAndPageViewContoller */,
-				0A8B128024065C5C00D6B5C9 /* AppDelegate.swift */,
+				0AA58CB924115DB5000E65C0 /* SizeClassesAndAutoLayout */,
 				0A8B128224065C5C00D6B5C9 /* SceneDelegate.swift */,
+				0A8B128024065C5C00D6B5C9 /* AppDelegate.swift */,
 				0A8B128624065C5C00D6B5C9 /* Main.storyboard */,
 				0A8B128C24065C5D00D6B5C9 /* Assets.xcassets */,
 				0A8B128E24065C5D00D6B5C9 /* LaunchScreen.storyboard */,
@@ -161,6 +168,16 @@
 				0A8B12A724065C5D00D6B5C9 /* Info.plist */,
 			);
 			path = TrainningAppUITests;
+			sourceTree = "<group>";
+		};
+		0AA58CB924115DB5000E65C0 /* SizeClassesAndAutoLayout */ = {
+			isa = PBXGroup;
+			children = (
+				0AA58CB524115D92000E65C0 /* FirstAutoLayoutViewController.swift */,
+				0AA58CB724115DA8000E65C0 /* SecondAutoLayoutViewController.swift */,
+				0A3EA4712414D44E0070AEEE /* ThirdAutoLayoutViewController.swift */,
+			);
+			path = SizeClassesAndAutoLayout;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -305,7 +322,10 @@
 				0A8B128324065C5C00D6B5C9 /* SceneDelegate.swift in Sources */,
 				0A8B12B824065CDA00D6B5C9 /* FourthViewController.swift in Sources */,
 				0AE7E00E2410FD100057825E /* MainPageViewController.swift in Sources */,
+				0AA58CB824115DA8000E65C0 /* SecondAutoLayoutViewController.swift in Sources */,
+				0A3EA4722414D44E0070AEEE /* ThirdAutoLayoutViewController.swift in Sources */,
 				0A8B12B624065CD100D6B5C9 /* ThirdViewController.swift in Sources */,
+				0AA58CB624115D92000E65C0 /* FirstAutoLayoutViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
