@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0A3A10662424A17600C30655 /* ProgrammaticallyAutoLyoutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A3A10652424A17600C30655 /* ProgrammaticallyAutoLyoutViewController.swift */; };
+		0A3A10692424A89B00C30655 /* CalculatorStackViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A3A10682424A89B00C30655 /* CalculatorStackViewController.swift */; };
+		0A3A106B2424A8B900C30655 /* ScrollViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A3A106A2424A8B900C30655 /* ScrollViewController.swift */; };
+		0A3A106D2424A9F200C30655 /* NavigatingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A3A106C2424A9F100C30655 /* NavigatingViewController.swift */; };
 		0A3EA4722414D44E0070AEEE /* ThirdAutoLayoutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A3EA4712414D44E0070AEEE /* ThirdAutoLayoutViewController.swift */; };
 		0A45E4492418E3920037C47A /* NestedTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A45E4482418E3920037C47A /* NestedTableViewController.swift */; };
 		0A45E44C2418E4090037C47A /* NestedCustomTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A45E44A2418E4090037C47A /* NestedCustomTableViewCell.swift */; };
@@ -55,6 +59,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0A3A10652424A17600C30655 /* ProgrammaticallyAutoLyoutViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgrammaticallyAutoLyoutViewController.swift; sourceTree = "<group>"; };
+		0A3A10682424A89B00C30655 /* CalculatorStackViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalculatorStackViewController.swift; sourceTree = "<group>"; };
+		0A3A106A2424A8B900C30655 /* ScrollViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollViewController.swift; sourceTree = "<group>"; };
+		0A3A106C2424A9F100C30655 /* NavigatingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigatingViewController.swift; sourceTree = "<group>"; };
 		0A3EA4712414D44E0070AEEE /* ThirdAutoLayoutViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThirdAutoLayoutViewController.swift; sourceTree = "<group>"; };
 		0A45E4482418E3920037C47A /* NestedTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NestedTableViewController.swift; sourceTree = "<group>"; };
 		0A45E44A2418E4090037C47A /* NestedCustomTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NestedCustomTableViewCell.swift; sourceTree = "<group>"; };
@@ -132,6 +140,17 @@
 			path = TabBarAndPageViewContoller;
 			sourceTree = "<group>";
 		};
+		0A3A10672424A81E00C30655 /* AutoLayoutSession2 */ = {
+			isa = PBXGroup;
+			children = (
+				0A3A106C2424A9F100C30655 /* NavigatingViewController.swift */,
+				0A3A10652424A17600C30655 /* ProgrammaticallyAutoLyoutViewController.swift */,
+				0A3A10682424A89B00C30655 /* CalculatorStackViewController.swift */,
+				0A3A106A2424A8B900C30655 /* ScrollViewController.swift */,
+			);
+			path = AutoLayoutSession2;
+			sourceTree = "<group>";
+		};
 		0A45E456241905D60037C47A /* NestedTableAndCollectionView */ = {
 			isa = PBXGroup;
 			children = (
@@ -170,6 +189,7 @@
 		0A8B127F24065C5C00D6B5C9 /* TrainningApp */ = {
 			isa = PBXGroup;
 			children = (
+				0A3A10672424A81E00C30655 /* AutoLayoutSession2 */,
 				0A45E456241905D60037C47A /* NestedTableAndCollectionView */,
 				0A2676FB240FAB4700D29DCC /* TabBarAndPageViewContoller */,
 				0AA58CB924115DB5000E65C0 /* SizeClassesAndAutoLayout */,
@@ -346,18 +366,22 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0A3A106D2424A9F200C30655 /* NavigatingViewController.swift in Sources */,
 				0AE7E0102410FD260057825E /* PageOneViewController.swift in Sources */,
 				0A45E44C2418E4090037C47A /* NestedCustomTableViewCell.swift in Sources */,
 				0A8B128B24065C5C00D6B5C9 /* TrainningApp.xcdatamodeld in Sources */,
 				0AE7E0142410FD590057825E /* PageTwoViewController.swift in Sources */,
 				0A8B12B424065CC500D6B5C9 /* SecondViewController.swift in Sources */,
 				0A45E45824190A2B0037C47A /* MainViewController.swift in Sources */,
+				0A3A10662424A17600C30655 /* ProgrammaticallyAutoLyoutViewController.swift in Sources */,
 				0A45E4492418E3920037C47A /* NestedTableViewController.swift in Sources */,
+				0A3A106B2424A8B900C30655 /* ScrollViewController.swift in Sources */,
 				0AE7E0162410FD6A0057825E /* PageThreeViewController.swift in Sources */,
 				0A8B128524065C5C00D6B5C9 /* FirstViewController.swift in Sources */,
 				0A8B12BA24065CE300D6B5C9 /* FifthViewController.swift in Sources */,
 				0A8B128124065C5C00D6B5C9 /* AppDelegate.swift in Sources */,
 				0A8B128324065C5C00D6B5C9 /* SceneDelegate.swift in Sources */,
+				0A3A10692424A89B00C30655 /* CalculatorStackViewController.swift in Sources */,
 				0A8B12B824065CDA00D6B5C9 /* FourthViewController.swift in Sources */,
 				0A45E4542418E8050037C47A /* NestedCustomCollectionViewCell.swift in Sources */,
 				0AE7E00E2410FD100057825E /* MainPageViewController.swift in Sources */,

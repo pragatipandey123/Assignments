@@ -12,8 +12,8 @@ class MainViewController: UIViewController , UITableViewDelegate, UITableViewDat
     
     @IBOutlet weak var tableView: UITableView!
     
-    var sessionArray = ["NavigationAndTabBar","AutoLayoutSession1","TableViewAndCollectionView"]
-    var storyBoardIDArray = ["FirstViewController","FirstAutoLayoutViewController","NestedTableViewController"]
+    var sessionArray = ["NavigationAndTabBar","AutoLayoutSession1","TableViewAndCollectionView","AutoLayoutSession2"]
+    var storyBoardIDArray = ["FirstViewController","FirstAutoLayoutViewController","NestedTableViewController", "NavigatingViewController"]
         
         override func viewDidLoad() {
             super.viewDidLoad()
