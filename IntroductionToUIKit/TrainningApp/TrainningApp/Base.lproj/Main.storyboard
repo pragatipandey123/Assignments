@@ -368,7 +368,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="GD2-SZ-x87" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="5005.6000000000004" y="3424.8768472906404"/>
+            <point key="canvasLocation" x="6098" y="3425"/>
         </scene>
         <!--Programmatically Auto Lyout View Controller-->
         <scene sceneID="axW-u2-Gez">
@@ -383,7 +383,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="xB3-mT-kVP" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="5661.6000000000004" y="3424.8768472906404"/>
+            <point key="canvasLocation" x="6799" y="3425"/>
         </scene>
         <!--Scroll View Controller-->
         <scene sceneID="kD0-Mi-257">
@@ -497,7 +497,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="mwy-xD-Hnc" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="6306.3999999999996" y="3424.8768472906404"/>
+            <point key="canvasLocation" x="7466" y="3425"/>
         </scene>
         <!--Second Auto Layout View Controller-->
         <scene sceneID="EQ5-mg-b0w">
@@ -1267,17 +1267,27 @@
                                     <action selector="calculatorButton:" destination="RjI-1V-Vtw" eventType="touchUpInside" id="j6T-cP-aRE"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="s5s-km-8Q1">
+                                <rect key="frame" x="20" y="686" width="335" height="30"/>
+                                <state key="normal" title="StackViewsInput"/>
+                                <connections>
+                                    <action selector="stackViewInputsButtonWith_sender:" destination="RjI-1V-Vtw" eventType="touchUpInside" id="LXB-ZQ-X9e"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <constraints>
                             <constraint firstItem="orD-cS-0zY" firstAttribute="leading" secondItem="qXR-1J-OkN" secondAttribute="leading" constant="20" id="B8o-GX-v37"/>
                             <constraint firstItem="orD-cS-0zY" firstAttribute="top" secondItem="qXR-1J-OkN" secondAttribute="top" constant="89" id="EAt-8V-um1"/>
                             <constraint firstItem="hTG-SO-dYA" firstAttribute="leading" secondItem="qXR-1J-OkN" secondAttribute="leading" constant="20" id="F2h-UC-RZm"/>
+                            <constraint firstItem="s5s-km-8Q1" firstAttribute="centerX" secondItem="ZI1-42-Idm" secondAttribute="centerX" id="Hd8-ud-c1J"/>
                             <constraint firstItem="hTG-SO-dYA" firstAttribute="centerX" secondItem="ZI1-42-Idm" secondAttribute="centerX" id="LXq-Io-Ovl"/>
                             <constraint firstItem="rQs-hA-e4s" firstAttribute="centerX" secondItem="ZI1-42-Idm" secondAttribute="centerX" id="OC9-5P-eVm"/>
+                            <constraint firstItem="s5s-km-8Q1" firstAttribute="top" secondItem="hTG-SO-dYA" secondAttribute="bottom" constant="100" id="S87-Bd-13n"/>
                             <constraint firstItem="hTG-SO-dYA" firstAttribute="top" secondItem="rQs-hA-e4s" secondAttribute="bottom" constant="150" id="YBd-aJ-CsI"/>
                             <constraint firstItem="rQs-hA-e4s" firstAttribute="top" secondItem="orD-cS-0zY" secondAttribute="bottom" constant="150" id="jag-fT-QoQ"/>
                             <constraint firstItem="orD-cS-0zY" firstAttribute="centerX" secondItem="ZI1-42-Idm" secondAttribute="centerX" id="jjZ-aX-hGY"/>
+                            <constraint firstItem="s5s-km-8Q1" firstAttribute="leading" secondItem="qXR-1J-OkN" secondAttribute="leading" constant="20" id="pFm-lv-ht8"/>
                             <constraint firstItem="rQs-hA-e4s" firstAttribute="leading" secondItem="qXR-1J-OkN" secondAttribute="leading" constant="20" id="uC4-gu-rh8"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="qXR-1J-OkN"/>
@@ -1286,7 +1296,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="mc7-Dc-8lY" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="4188" y="3424.8768472906404"/>
+            <point key="canvasLocation" x="1369" y="3425"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="00p-u4-SVF">
@@ -1304,7 +1314,214 @@
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="i42-lH-AMb" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="3245.5999999999999" y="3424.8768472906404"/>
+            <point key="canvasLocation" x="633" y="3425"/>
+        </scene>
+        <!--Input View Controller-->
+        <scene sceneID="Koi-S7-RSR">
+            <objects>
+                <viewController storyboardIdentifier="InputViewController" id="rhn-Dj-2BJ" customClass="InputViewController" customModule="TrainningApp" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="zj4-Eh-wvf">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Enter some Input" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="RfF-2v-4NL">
+                                <rect key="frame" x="50" y="337" width="275" height="34"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="X1D-k0-IVR">
+                                <rect key="frame" x="150" y="471" width="49" height="30"/>
+                                <state key="normal" title="Submit"/>
+                                <connections>
+                                    <action selector="selectionButton:" destination="rhn-Dj-2BJ" eventType="touchUpInside" id="BdL-Aa-96D"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="X1D-k0-IVR" firstAttribute="leading" secondItem="wzQ-ig-mxi" secondAttribute="leading" constant="150" id="M7f-oJ-LP1"/>
+                            <constraint firstItem="X1D-k0-IVR" firstAttribute="top" secondItem="RfF-2v-4NL" secondAttribute="bottom" constant="100" id="PEX-HK-bjA"/>
+                            <constraint firstItem="RfF-2v-4NL" firstAttribute="top" secondItem="wzQ-ig-mxi" secondAttribute="top" constant="293" id="Vc3-M4-aIo"/>
+                            <constraint firstItem="wzQ-ig-mxi" firstAttribute="trailing" secondItem="RfF-2v-4NL" secondAttribute="trailing" constant="50" id="XL4-si-7H7"/>
+                            <constraint firstItem="RfF-2v-4NL" firstAttribute="leading" secondItem="wzQ-ig-mxi" secondAttribute="leading" constant="50" id="Z3B-sA-GOq"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="wzQ-ig-mxi"/>
+                    </view>
+                    <connections>
+                        <outlet property="inputText" destination="RfF-2v-4NL" id="xVE-cR-okd"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="lN0-8I-tw3" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2158" y="3425"/>
+        </scene>
+        <!--First Input View Controller-->
+        <scene sceneID="Mgi-k5-nbG">
+            <objects>
+                <viewController storyboardIdentifier="FirstInputViewController" id="Quk-QI-X11" customClass="FirstInputViewController" customModule="TrainningApp" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" ambiguous="YES" id="lAz-E3-aia">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" ambiguous="YES" distribution="fillEqually" spacing="13" translatesAutoresizingMaskIntoConstraints="NO" id="C0M-VW-HU2">
+                                <rect key="frame" x="0.0" y="44" width="375" height="734"/>
+                                <subviews>
+                                    <view contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="lsR-B6-s23">
+                                        <rect key="frame" x="0.0" y="0.0" width="375" height="734"/>
+                                        <color key="backgroundColor" systemColor="systemPinkColor" red="1" green="0.1764705882" blue="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    </view>
+                                </subviews>
+                            </stackView>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="C0M-VW-HU2" firstAttribute="height" secondItem="lAz-E3-aia" secondAttribute="height" multiplier="0.903941" id="5dl-2R-1Aw"/>
+                            <constraint firstItem="C0M-VW-HU2" firstAttribute="width" secondItem="lAz-E3-aia" secondAttribute="width" id="Abh-xc-8ro"/>
+                            <constraint firstItem="LnB-vh-6Pu" firstAttribute="bottom" secondItem="C0M-VW-HU2" secondAttribute="bottom" id="dnF-9W-dkC"/>
+                            <constraint firstItem="C0M-VW-HU2" firstAttribute="leading" secondItem="LnB-vh-6Pu" secondAttribute="leading" id="hEv-9y-hb0"/>
+                            <constraint firstItem="LnB-vh-6Pu" firstAttribute="trailing" secondItem="C0M-VW-HU2" secondAttribute="trailing" id="sf4-vf-tPf"/>
+                            <constraint firstItem="C0M-VW-HU2" firstAttribute="top" secondItem="LnB-vh-6Pu" secondAttribute="top" id="uWE-SN-gQO"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="LnB-vh-6Pu"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="hss-Rf-wel" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2903" y="3425"/>
+        </scene>
+        <!--Second Input View Controller-->
+        <scene sceneID="t6l-a4-fl6">
+            <objects>
+                <viewController id="Hqq-1k-GfH" customClass="SecondInputViewController" customModule="TrainningApp" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="IsL-Vg-dvs">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="ZAc-Ex-cpl">
+                                <rect key="frame" x="0.0" y="44" width="375" height="734"/>
+                                <subviews>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="t8O-Jh-OcT">
+                                        <rect key="frame" x="0.0" y="0.0" width="375" height="362"/>
+                                        <color key="backgroundColor" systemColor="systemIndigoColor" red="0.34509803919999998" green="0.33725490200000002" blue="0.83921568629999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    </view>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="HNH-BE-kAI">
+                                        <rect key="frame" x="0.0" y="372" width="375" height="362"/>
+                                        <color key="backgroundColor" systemColor="systemPurpleColor" red="0.68627450980000004" green="0.32156862749999998" blue="0.87058823529999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    </view>
+                                </subviews>
+                            </stackView>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="ZAc-Ex-cpl" firstAttribute="top" secondItem="4aw-cf-47e" secondAttribute="top" id="NNF-Po-G9o"/>
+                            <constraint firstItem="4aw-cf-47e" firstAttribute="trailing" secondItem="ZAc-Ex-cpl" secondAttribute="trailing" id="UCR-17-zh7"/>
+                            <constraint firstItem="ZAc-Ex-cpl" firstAttribute="width" secondItem="IsL-Vg-dvs" secondAttribute="width" id="Uhn-5R-Gvt"/>
+                            <constraint firstItem="ZAc-Ex-cpl" firstAttribute="leading" secondItem="4aw-cf-47e" secondAttribute="leading" id="XKW-bP-kx0"/>
+                            <constraint firstItem="4aw-cf-47e" firstAttribute="bottom" secondItem="ZAc-Ex-cpl" secondAttribute="bottom" id="yEO-sy-7A7"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="4aw-cf-47e"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="meH-PC-HlP" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3660" y="3425"/>
+        </scene>
+        <!--Fourth Input View Controller-->
+        <scene sceneID="6Hz-8d-qSB">
+            <objects>
+                <viewController storyboardIdentifier="FourthInputViewController" id="cwL-EH-rHG" customClass="FourthInputViewController" customModule="TrainningApp" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="OLX-hD-KX1">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="6" translatesAutoresizingMaskIntoConstraints="NO" id="u4e-xw-Oof">
+                                <rect key="frame" x="0.0" y="44" width="375" height="324.66666666666669"/>
+                                <subviews>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="OQW-w2-ogG">
+                                        <rect key="frame" x="0.0" y="0.0" width="184.66666666666666" height="324.66666666666669"/>
+                                        <color key="backgroundColor" systemColor="systemPinkColor" red="1" green="0.1764705882" blue="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    </view>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="aSi-8z-f7T">
+                                        <rect key="frame" x="190.66666666666663" y="0.0" width="184.33333333333337" height="324.66666666666669"/>
+                                        <color key="backgroundColor" systemColor="systemBrownColor" red="0.63529411759999999" green="0.51764705879999995" blue="0.36862745099999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    </view>
+                                </subviews>
+                            </stackView>
+                            <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="6" translatesAutoresizingMaskIntoConstraints="NO" id="4nf-2h-wUv">
+                                <rect key="frame" x="0.0" y="388.66666666666674" width="375" height="389.33333333333326"/>
+                                <subviews>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="MeW-Fy-f6L">
+                                        <rect key="frame" x="0.0" y="0.0" width="184.66666666666666" height="389.33333333333331"/>
+                                        <color key="backgroundColor" cocoaTouchSystemColor="scrollViewTexturedBackgroundColor"/>
+                                    </view>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="s2A-4G-pYH">
+                                        <rect key="frame" x="190.66666666666663" y="0.0" width="184.33333333333337" height="389.33333333333331"/>
+                                        <color key="backgroundColor" systemColor="systemRedColor" red="1" green="0.23137254900000001" blue="0.18823529410000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    </view>
+                                </subviews>
+                            </stackView>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="4nf-2h-wUv" firstAttribute="top" secondItem="u4e-xw-Oof" secondAttribute="bottom" constant="20" id="3Bt-pE-egs"/>
+                            <constraint firstItem="NWk-FW-z8g" firstAttribute="trailing" secondItem="u4e-xw-Oof" secondAttribute="trailing" id="966-2R-kx6"/>
+                            <constraint firstItem="NWk-FW-z8g" firstAttribute="trailing" secondItem="4nf-2h-wUv" secondAttribute="trailing" id="Vd3-yr-6iu"/>
+                            <constraint firstItem="4nf-2h-wUv" firstAttribute="leading" secondItem="NWk-FW-z8g" secondAttribute="leading" id="b5r-h6-lEw"/>
+                            <constraint firstItem="u4e-xw-Oof" firstAttribute="width" secondItem="OLX-hD-KX1" secondAttribute="width" id="cTh-BY-RwF"/>
+                            <constraint firstItem="u4e-xw-Oof" firstAttribute="leading" secondItem="NWk-FW-z8g" secondAttribute="leading" id="e1b-Zo-pq0"/>
+                            <constraint firstItem="u4e-xw-Oof" firstAttribute="top" secondItem="NWk-FW-z8g" secondAttribute="top" id="e2y-ZR-k1X"/>
+                            <constraint firstItem="u4e-xw-Oof" firstAttribute="height" secondItem="OLX-hD-KX1" secondAttribute="height" multiplier="0.4" id="g9E-Co-sQI"/>
+                            <constraint firstItem="NWk-FW-z8g" firstAttribute="bottom" secondItem="4nf-2h-wUv" secondAttribute="bottom" id="gnO-PX-E9Y"/>
+                            <constraint firstItem="4nf-2h-wUv" firstAttribute="width" secondItem="OLX-hD-KX1" secondAttribute="width" id="ljR-CM-gaf"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="NWk-FW-z8g"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Ok9-TG-gkR" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="5290" y="3425"/>
+        </scene>
+        <!--Third Input View Controller-->
+        <scene sceneID="l4g-x6-CdR">
+            <objects>
+                <viewController storyboardIdentifier="ThirdInputViewController" id="Onj-zM-ykg" customClass="ThirdInputViewController" customModule="TrainningApp" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" ambiguous="YES" id="FJe-VN-cJl">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" ambiguous="YES" axis="vertical" distribution="fillEqually" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="eUs-v0-zZP">
+                                <rect key="frame" x="0.0" y="44" width="375" height="734"/>
+                                <subviews>
+                                    <view contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="cjt-VY-hYf">
+                                        <rect key="frame" x="0.0" y="0.0" width="375" height="239.33333333333334"/>
+                                        <color key="backgroundColor" systemColor="systemOrangeColor" red="1" green="0.58431372550000005" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    </view>
+                                    <view contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Vch-NN-p0S">
+                                        <rect key="frame" x="0.0" y="247.33333333333331" width="375" height="239.33333333333331"/>
+                                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    </view>
+                                    <view contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="S5v-VH-pYw">
+                                        <rect key="frame" x="0.0" y="494.66666666666657" width="375" height="239.33333333333331"/>
+                                        <color key="backgroundColor" systemColor="systemGreenColor" red="0.20392156859999999" green="0.78039215689999997" blue="0.34901960780000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    </view>
+                                </subviews>
+                            </stackView>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="eUs-v0-zZP" firstAttribute="top" secondItem="mGV-hO-KwT" secondAttribute="top" id="P5i-Ev-wCV"/>
+                            <constraint firstItem="eUs-v0-zZP" firstAttribute="leading" secondItem="mGV-hO-KwT" secondAttribute="leading" id="V26-l6-e3G"/>
+                            <constraint firstItem="eUs-v0-zZP" firstAttribute="height" secondItem="FJe-VN-cJl" secondAttribute="height" multiplier="0.903941" id="lkp-e4-4V1"/>
+                            <constraint firstItem="mGV-hO-KwT" firstAttribute="trailing" secondItem="eUs-v0-zZP" secondAttribute="trailing" id="vJM-ek-lI1"/>
+                            <constraint firstItem="mGV-hO-KwT" firstAttribute="bottom" secondItem="eUs-v0-zZP" secondAttribute="bottom" id="vaY-M0-ahj"/>
+                            <constraint firstItem="eUs-v0-zZP" firstAttribute="width" secondItem="FJe-VN-cJl" secondAttribute="width" id="zzf-H1-gJ4"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="mGV-hO-KwT"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="J1z-Pn-miT" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="4474" y="3425"/>
         </scene>
     </scenes>
     <resources>

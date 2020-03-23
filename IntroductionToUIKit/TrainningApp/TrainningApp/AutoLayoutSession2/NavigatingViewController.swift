@@ -38,5 +38,11 @@ class NavigatingViewController: UIViewController {
            let vc = storyBoard.instantiateViewController(identifier: "ScrollViewController")
                   self.navigationController?.pushViewController(vc, animated: true)
        }
+    
+    @IBAction func stackViewInputsButton(_sender: Any) {
+        let vc = storyBoard.instantiateViewController(identifier: "InputViewController")
+        self.navigationController?.pushViewController(vc, animated: true)
+        
+    }
 
 }
