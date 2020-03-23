@@ -20,6 +20,11 @@
 		0A45E45824190A2B0037C47A /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A45E45724190A2B0037C47A /* MainViewController.swift */; };
 		0A45E45F241915B60037C47A /* CustomCellTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A45E45D241915B60037C47A /* CustomCellTableViewCell.swift */; };
 		0A45E460241915B60037C47A /* CustomCellTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0A45E45E241915B60037C47A /* CustomCellTableViewCell.xib */; };
+		0A564268242900BE0051795E /* InputViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A564267242900BE0051795E /* InputViewController.swift */; };
+		0A56426A242900F10051795E /* FirstInputViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A564269242900F10051795E /* FirstInputViewController.swift */; };
+		0A56426C242901070051795E /* SecondInputViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A56426B242901070051795E /* SecondInputViewController.swift */; };
+		0A56426E242901220051795E /* ThirdInputViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A56426D242901220051795E /* ThirdInputViewController.swift */; };
+		0A564270242901310051795E /* FourthInputViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A56426F242901310051795E /* FourthInputViewController.swift */; };
 		0A8B128124065C5C00D6B5C9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A8B128024065C5C00D6B5C9 /* AppDelegate.swift */; };
 		0A8B128324065C5C00D6B5C9 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A8B128224065C5C00D6B5C9 /* SceneDelegate.swift */; };
 		0A8B128524065C5C00D6B5C9 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A8B128424065C5C00D6B5C9 /* FirstViewController.swift */; };
@@ -72,6 +77,11 @@
 		0A45E45724190A2B0037C47A /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		0A45E45D241915B60037C47A /* CustomCellTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomCellTableViewCell.swift; sourceTree = "<group>"; };
 		0A45E45E241915B60037C47A /* CustomCellTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CustomCellTableViewCell.xib; sourceTree = "<group>"; };
+		0A564267242900BE0051795E /* InputViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InputViewController.swift; sourceTree = "<group>"; };
+		0A564269242900F10051795E /* FirstInputViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstInputViewController.swift; sourceTree = "<group>"; };
+		0A56426B242901070051795E /* SecondInputViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondInputViewController.swift; sourceTree = "<group>"; };
+		0A56426D242901220051795E /* ThirdInputViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThirdInputViewController.swift; sourceTree = "<group>"; };
+		0A56426F242901310051795E /* FourthInputViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FourthInputViewController.swift; sourceTree = "<group>"; };
 		0A8B127D24065C5C00D6B5C9 /* TrainningApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TrainningApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0A8B128024065C5C00D6B5C9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		0A8B128224065C5C00D6B5C9 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -144,6 +154,11 @@
 			isa = PBXGroup;
 			children = (
 				0A3A106C2424A9F100C30655 /* NavigatingViewController.swift */,
+				0A564267242900BE0051795E /* InputViewController.swift */,
+				0A564269242900F10051795E /* FirstInputViewController.swift */,
+				0A56426B242901070051795E /* SecondInputViewController.swift */,
+				0A56426D242901220051795E /* ThirdInputViewController.swift */,
+				0A56426F242901310051795E /* FourthInputViewController.swift */,
 				0A3A10652424A17600C30655 /* ProgrammaticallyAutoLyoutViewController.swift */,
 				0A3A10682424A89B00C30655 /* CalculatorStackViewController.swift */,
 				0A3A106A2424A8B900C30655 /* ScrollViewController.swift */,
@@ -368,20 +383,25 @@
 			files = (
 				0A3A106D2424A9F200C30655 /* NavigatingViewController.swift in Sources */,
 				0AE7E0102410FD260057825E /* PageOneViewController.swift in Sources */,
+				0A564270242901310051795E /* FourthInputViewController.swift in Sources */,
 				0A45E44C2418E4090037C47A /* NestedCustomTableViewCell.swift in Sources */,
 				0A8B128B24065C5C00D6B5C9 /* TrainningApp.xcdatamodeld in Sources */,
 				0AE7E0142410FD590057825E /* PageTwoViewController.swift in Sources */,
 				0A8B12B424065CC500D6B5C9 /* SecondViewController.swift in Sources */,
+				0A564268242900BE0051795E /* InputViewController.swift in Sources */,
 				0A45E45824190A2B0037C47A /* MainViewController.swift in Sources */,
 				0A3A10662424A17600C30655 /* ProgrammaticallyAutoLyoutViewController.swift in Sources */,
 				0A45E4492418E3920037C47A /* NestedTableViewController.swift in Sources */,
+				0A56426A242900F10051795E /* FirstInputViewController.swift in Sources */,
 				0A3A106B2424A8B900C30655 /* ScrollViewController.swift in Sources */,
+				0A56426C242901070051795E /* SecondInputViewController.swift in Sources */,
 				0AE7E0162410FD6A0057825E /* PageThreeViewController.swift in Sources */,
 				0A8B128524065C5C00D6B5C9 /* FirstViewController.swift in Sources */,
 				0A8B12BA24065CE300D6B5C9 /* FifthViewController.swift in Sources */,
 				0A8B128124065C5C00D6B5C9 /* AppDelegate.swift in Sources */,
 				0A8B128324065C5C00D6B5C9 /* SceneDelegate.swift in Sources */,
 				0A3A10692424A89B00C30655 /* CalculatorStackViewController.swift in Sources */,
+				0A56426E242901220051795E /* ThirdInputViewController.swift in Sources */,
 				0A8B12B824065CDA00D6B5C9 /* FourthViewController.swift in Sources */,
 				0A45E4542418E8050037C47A /* NestedCustomCollectionViewCell.swift in Sources */,
 				0AE7E00E2410FD100057825E /* MainPageViewController.swift in Sources */,
