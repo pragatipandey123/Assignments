@@ -20,6 +20,10 @@
 		0A45E45824190A2B0037C47A /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A45E45724190A2B0037C47A /* MainViewController.swift */; };
 		0A45E45F241915B60037C47A /* CustomCellTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A45E45D241915B60037C47A /* CustomCellTableViewCell.swift */; };
 		0A45E460241915B60037C47A /* CustomCellTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0A45E45E241915B60037C47A /* CustomCellTableViewCell.xib */; };
+		0A460838245186E3001D7DDB /* DetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A460837245186E3001D7DDB /* DetailsViewController.swift */; };
+		0A46083A24518A93001D7DDB /* DisplayDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A46083924518A93001D7DDB /* DisplayDetailsViewController.swift */; };
+		0A46083D24518AFF001D7DDB /* DiaplayTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A46083B24518AFF001D7DDB /* DiaplayTableViewCell.swift */; };
+		0A46083E24518AFF001D7DDB /* DiaplayTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0A46083C24518AFF001D7DDB /* DiaplayTableViewCell.xib */; };
 		0A564268242900BE0051795E /* InputViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A564267242900BE0051795E /* InputViewController.swift */; };
 		0A56426A242900F10051795E /* FirstInputViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A564269242900F10051795E /* FirstInputViewController.swift */; };
 		0A56426C242901070051795E /* SecondInputViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A56426B242901070051795E /* SecondInputViewController.swift */; };
@@ -77,6 +81,10 @@
 		0A45E45724190A2B0037C47A /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		0A45E45D241915B60037C47A /* CustomCellTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomCellTableViewCell.swift; sourceTree = "<group>"; };
 		0A45E45E241915B60037C47A /* CustomCellTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CustomCellTableViewCell.xib; sourceTree = "<group>"; };
+		0A460837245186E3001D7DDB /* DetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsViewController.swift; sourceTree = "<group>"; };
+		0A46083924518A93001D7DDB /* DisplayDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DisplayDetailsViewController.swift; sourceTree = "<group>"; };
+		0A46083B24518AFF001D7DDB /* DiaplayTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiaplayTableViewCell.swift; sourceTree = "<group>"; };
+		0A46083C24518AFF001D7DDB /* DiaplayTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DiaplayTableViewCell.xib; sourceTree = "<group>"; };
 		0A564267242900BE0051795E /* InputViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InputViewController.swift; sourceTree = "<group>"; };
 		0A564269242900F10051795E /* FirstInputViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstInputViewController.swift; sourceTree = "<group>"; };
 		0A56426B242901070051795E /* SecondInputViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondInputViewController.swift; sourceTree = "<group>"; };
@@ -174,6 +182,10 @@
 				0A45E44B2418E4090037C47A /* NestedCustomTableViewCell.xib */,
 				0A45E4522418E8050037C47A /* NestedCustomCollectionViewCell.swift */,
 				0A45E4532418E8050037C47A /* NestedCustomCollectionViewCell.xib */,
+				0A460837245186E3001D7DDB /* DetailsViewController.swift */,
+				0A46083924518A93001D7DDB /* DisplayDetailsViewController.swift */,
+				0A46083B24518AFF001D7DDB /* DiaplayTableViewCell.swift */,
+				0A46083C24518AFF001D7DDB /* DiaplayTableViewCell.xib */,
 			);
 			path = NestedTableAndCollectionView;
 			sourceTree = "<group>";
@@ -354,6 +366,7 @@
 				0A45E460241915B60037C47A /* CustomCellTableViewCell.xib in Resources */,
 				0A8B129024065C5D00D6B5C9 /* LaunchScreen.storyboard in Resources */,
 				0A8B128D24065C5D00D6B5C9 /* Assets.xcassets in Resources */,
+				0A46083E24518AFF001D7DDB /* DiaplayTableViewCell.xib in Resources */,
 				0A45E4552418E8050037C47A /* NestedCustomCollectionViewCell.xib in Resources */,
 				0A8B128824065C5C00D6B5C9 /* Main.storyboard in Resources */,
 				0A45E44D2418E4090037C47A /* NestedCustomTableViewCell.xib in Resources */,
@@ -390,6 +403,7 @@
 				0A8B12B424065CC500D6B5C9 /* SecondViewController.swift in Sources */,
 				0A564268242900BE0051795E /* InputViewController.swift in Sources */,
 				0A45E45824190A2B0037C47A /* MainViewController.swift in Sources */,
+				0A46083A24518A93001D7DDB /* DisplayDetailsViewController.swift in Sources */,
 				0A3A10662424A17600C30655 /* ProgrammaticallyAutoLyoutViewController.swift in Sources */,
 				0A45E4492418E3920037C47A /* NestedTableViewController.swift in Sources */,
 				0A56426A242900F10051795E /* FirstInputViewController.swift in Sources */,
@@ -408,8 +422,10 @@
 				0AA58CB824115DA8000E65C0 /* SecondAutoLayoutViewController.swift in Sources */,
 				0A3EA4722414D44E0070AEEE /* ThirdAutoLayoutViewController.swift in Sources */,
 				0A8B12B624065CD100D6B5C9 /* ThirdViewController.swift in Sources */,
+				0A46083D24518AFF001D7DDB /* DiaplayTableViewCell.swift in Sources */,
 				0A45E45F241915B60037C47A /* CustomCellTableViewCell.swift in Sources */,
 				0AA58CB624115D92000E65C0 /* FirstAutoLayoutViewController.swift in Sources */,
+				0A460838245186E3001D7DDB /* DetailsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
