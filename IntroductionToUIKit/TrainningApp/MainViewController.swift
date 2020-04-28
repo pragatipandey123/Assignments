@@ -12,8 +12,8 @@ class MainViewController: UIViewController , UITableViewDelegate, UITableViewDat
     
     @IBOutlet weak var tableView: UITableView!
     
-    var sessionArray = ["NavigationAndTabBar","AutoLayoutSession1","TableViewAndCollectionView","AutoLayoutSession2"]
-    var storyBoardIDArray = ["FirstViewController","FirstAutoLayoutViewController","NestedTableViewController", "NavigatingViewController"]
+    var sessionArray = ["NavigationAndTabBar","AutoLayoutSession1","TableViewAndCollectionView","AutoLayoutSession2","DataPassingTableView"]
+    var storyBoardIDArray = ["FirstViewController","FirstAutoLayoutViewController","NestedTableViewController", "NavigatingViewController","DisplayDetailsViewController"]
         
         override func viewDidLoad() {
             super.viewDidLoad()
@@ -39,7 +39,7 @@ class MainViewController: UIViewController , UITableViewDelegate, UITableViewDat
     
     func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
         
-        return 200
+        return 120
     }
     
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
