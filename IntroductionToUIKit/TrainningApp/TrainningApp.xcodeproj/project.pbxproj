@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0A2FB4C4248FEB26006FBAD6 /* PassingDictionaryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A2FB4C3248FEB26006FBAD6 /* PassingDictionaryViewController.swift */; };
+		0A2FB4C72490C3E8006FBAD6 /* RecievingDataViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A2FB4C62490C3E8006FBAD6 /* RecievingDataViewController.swift */; };
 		0A3A10662424A17600C30655 /* ProgrammaticallyAutoLyoutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A3A10652424A17600C30655 /* ProgrammaticallyAutoLyoutViewController.swift */; };
 		0A3A10692424A89B00C30655 /* CalculatorStackViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A3A10682424A89B00C30655 /* CalculatorStackViewController.swift */; };
 		0A3A106B2424A8B900C30655 /* ScrollViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A3A106A2424A8B900C30655 /* ScrollViewController.swift */; };
@@ -24,6 +26,10 @@
 		0A46083A24518A93001D7DDB /* DisplayDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A46083924518A93001D7DDB /* DisplayDetailsViewController.swift */; };
 		0A46083D24518AFF001D7DDB /* DiaplayTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A46083B24518AFF001D7DDB /* DiaplayTableViewCell.swift */; };
 		0A46083E24518AFF001D7DDB /* DiaplayTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0A46083C24518AFF001D7DDB /* DiaplayTableViewCell.xib */; };
+		0A4B7391249220D3005DD1AC /* BroadcastViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A4B7390249220D3005DD1AC /* BroadcastViewController.swift */; };
+		0A4B7393249220F4005DD1AC /* RecieveBroadcastMessageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A4B7392249220F4005DD1AC /* RecieveBroadcastMessageViewController.swift */; };
+		0A4B73952492230B005DD1AC /* ProtocolAnd DelegationQuesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A4B73942492230B005DD1AC /* ProtocolAnd DelegationQuesViewController.swift */; };
+		0A4B7397249225A5005DD1AC /* NotificationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A4B7396249225A5005DD1AC /* NotificationViewController.swift */; };
 		0A564268242900BE0051795E /* InputViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A564267242900BE0051795E /* InputViewController.swift */; };
 		0A56426A242900F10051795E /* FirstInputViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A564269242900F10051795E /* FirstInputViewController.swift */; };
 		0A56426C242901070051795E /* SecondInputViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A56426B242901070051795E /* SecondInputViewController.swift */; };
@@ -68,6 +74,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0A2FB4C3248FEB26006FBAD6 /* PassingDictionaryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PassingDictionaryViewController.swift; sourceTree = "<group>"; };
+		0A2FB4C62490C3E8006FBAD6 /* RecievingDataViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecievingDataViewController.swift; sourceTree = "<group>"; };
 		0A3A10652424A17600C30655 /* ProgrammaticallyAutoLyoutViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgrammaticallyAutoLyoutViewController.swift; sourceTree = "<group>"; };
 		0A3A10682424A89B00C30655 /* CalculatorStackViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalculatorStackViewController.swift; sourceTree = "<group>"; };
 		0A3A106A2424A8B900C30655 /* ScrollViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollViewController.swift; sourceTree = "<group>"; };
@@ -85,6 +93,10 @@
 		0A46083924518A93001D7DDB /* DisplayDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DisplayDetailsViewController.swift; sourceTree = "<group>"; };
 		0A46083B24518AFF001D7DDB /* DiaplayTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiaplayTableViewCell.swift; sourceTree = "<group>"; };
 		0A46083C24518AFF001D7DDB /* DiaplayTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DiaplayTableViewCell.xib; sourceTree = "<group>"; };
+		0A4B7390249220D3005DD1AC /* BroadcastViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = BroadcastViewController.swift; path = TrainningApp/BroadcastViewController.swift; sourceTree = SOURCE_ROOT; };
+		0A4B7392249220F4005DD1AC /* RecieveBroadcastMessageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecieveBroadcastMessageViewController.swift; sourceTree = "<group>"; };
+		0A4B73942492230B005DD1AC /* ProtocolAnd DelegationQuesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ProtocolAnd DelegationQuesViewController.swift"; sourceTree = "<group>"; };
+		0A4B7396249225A5005DD1AC /* NotificationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = NotificationViewController.swift; path = TrainningApp/NotificationViewController.swift; sourceTree = SOURCE_ROOT; };
 		0A564267242900BE0051795E /* InputViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InputViewController.swift; sourceTree = "<group>"; };
 		0A564269242900F10051795E /* FirstInputViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstInputViewController.swift; sourceTree = "<group>"; };
 		0A56426B242901070051795E /* SecondInputViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondInputViewController.swift; sourceTree = "<group>"; };
@@ -158,6 +170,19 @@
 			path = TabBarAndPageViewContoller;
 			sourceTree = "<group>";
 		};
+		0A2FB4C5248FEB38006FBAD6 /* ProtocolsAndDelegations */ = {
+			isa = PBXGroup;
+			children = (
+				0A4B73942492230B005DD1AC /* ProtocolAnd DelegationQuesViewController.swift */,
+				0A2FB4C62490C3E8006FBAD6 /* RecievingDataViewController.swift */,
+				0A2FB4C3248FEB26006FBAD6 /* PassingDictionaryViewController.swift */,
+				0A4B7390249220D3005DD1AC /* BroadcastViewController.swift */,
+				0A4B7392249220F4005DD1AC /* RecieveBroadcastMessageViewController.swift */,
+				0A4B7396249225A5005DD1AC /* NotificationViewController.swift */,
+			);
+			path = ProtocolsAndDelegations;
+			sourceTree = "<group>";
+		};
 		0A3A10672424A81E00C30655 /* AutoLayoutSession2 */ = {
 			isa = PBXGroup;
 			children = (
@@ -220,6 +245,7 @@
 				0A45E456241905D60037C47A /* NestedTableAndCollectionView */,
 				0A2676FB240FAB4700D29DCC /* TabBarAndPageViewContoller */,
 				0AA58CB924115DB5000E65C0 /* SizeClassesAndAutoLayout */,
+				0A2FB4C5248FEB38006FBAD6 /* ProtocolsAndDelegations */,
 				0A8B128224065C5C00D6B5C9 /* SceneDelegate.swift */,
 				0A8B128024065C5C00D6B5C9 /* AppDelegate.swift */,
 				0A8B128624065C5C00D6B5C9 /* Main.storyboard */,
@@ -397,16 +423,21 @@
 				0A3A106D2424A9F200C30655 /* NavigatingViewController.swift in Sources */,
 				0AE7E0102410FD260057825E /* PageOneViewController.swift in Sources */,
 				0A564270242901310051795E /* FourthInputViewController.swift in Sources */,
+				0A2FB4C72490C3E8006FBAD6 /* RecievingDataViewController.swift in Sources */,
+				0A4B7393249220F4005DD1AC /* RecieveBroadcastMessageViewController.swift in Sources */,
 				0A45E44C2418E4090037C47A /* NestedCustomTableViewCell.swift in Sources */,
 				0A8B128B24065C5C00D6B5C9 /* TrainningApp.xcdatamodeld in Sources */,
 				0AE7E0142410FD590057825E /* PageTwoViewController.swift in Sources */,
 				0A8B12B424065CC500D6B5C9 /* SecondViewController.swift in Sources */,
 				0A564268242900BE0051795E /* InputViewController.swift in Sources */,
 				0A45E45824190A2B0037C47A /* MainViewController.swift in Sources */,
+				0A2FB4C4248FEB26006FBAD6 /* PassingDictionaryViewController.swift in Sources */,
+				0A4B7397249225A5005DD1AC /* NotificationViewController.swift in Sources */,
 				0A46083A24518A93001D7DDB /* DisplayDetailsViewController.swift in Sources */,
 				0A3A10662424A17600C30655 /* ProgrammaticallyAutoLyoutViewController.swift in Sources */,
 				0A45E4492418E3920037C47A /* NestedTableViewController.swift in Sources */,
 				0A56426A242900F10051795E /* FirstInputViewController.swift in Sources */,
+				0A4B73952492230B005DD1AC /* ProtocolAnd DelegationQuesViewController.swift in Sources */,
 				0A3A106B2424A8B900C30655 /* ScrollViewController.swift in Sources */,
 				0A56426C242901070051795E /* SecondInputViewController.swift in Sources */,
 				0AE7E0162410FD6A0057825E /* PageThreeViewController.swift in Sources */,
@@ -420,6 +451,7 @@
 				0A45E4542418E8050037C47A /* NestedCustomCollectionViewCell.swift in Sources */,
 				0AE7E00E2410FD100057825E /* MainPageViewController.swift in Sources */,
 				0AA58CB824115DA8000E65C0 /* SecondAutoLayoutViewController.swift in Sources */,
+				0A4B7391249220D3005DD1AC /* BroadcastViewController.swift in Sources */,
 				0A3EA4722414D44E0070AEEE /* ThirdAutoLayoutViewController.swift in Sources */,
 				0A8B12B624065CD100D6B5C9 /* ThirdViewController.swift in Sources */,
 				0A46083D24518AFF001D7DDB /* DiaplayTableViewCell.swift in Sources */,
