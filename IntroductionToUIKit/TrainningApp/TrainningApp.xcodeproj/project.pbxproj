@@ -13,6 +13,15 @@
 		0A3A10692424A89B00C30655 /* CalculatorStackViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A3A10682424A89B00C30655 /* CalculatorStackViewController.swift */; };
 		0A3A106B2424A8B900C30655 /* ScrollViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A3A106A2424A8B900C30655 /* ScrollViewController.swift */; };
 		0A3A106D2424A9F200C30655 /* NavigatingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A3A106C2424A9F100C30655 /* NavigatingViewController.swift */; };
+		0A3BE2B924936F0700D0761A /* ImageViewerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A3BE2B824936F0700D0761A /* ImageViewerViewController.swift */; };
+		0A3BE2BC24936F3D00D0761A /* GalleryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A3BE2BB24936F3D00D0761A /* GalleryViewController.swift */; };
+		0A3BE2BE24936F7400D0761A /* GalleryItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A3BE2BD24936F7400D0761A /* GalleryItem.swift */; };
+		0A3BE2C024936F9E00D0761A /* BaseModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A3BE2BF24936F9E00D0761A /* BaseModel.swift */; };
+		0A3BE2C224936FD400D0761A /* ApiManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A3BE2C124936FD400D0761A /* ApiManager.swift */; };
+		0A3BE2C42493703400D0761A /* ParsingJson.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A3BE2C32493703400D0761A /* ParsingJson.swift */; };
+		0A3BE2C62493706200D0761A /* UIImageViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A3BE2C52493706200D0761A /* UIImageViewExtension.swift */; };
+		0A3BE2C9249370CA00D0761A /* ImageCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A3BE2C7249370CA00D0761A /* ImageCollectionViewCell.swift */; };
+		0A3BE2CA249370CA00D0761A /* ImageCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0A3BE2C8249370CA00D0761A /* ImageCollectionViewCell.xib */; };
 		0A3EA4722414D44E0070AEEE /* ThirdAutoLayoutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A3EA4712414D44E0070AEEE /* ThirdAutoLayoutViewController.swift */; };
 		0A45E4492418E3920037C47A /* NestedTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A45E4482418E3920037C47A /* NestedTableViewController.swift */; };
 		0A45E44C2418E4090037C47A /* NestedCustomTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A45E44A2418E4090037C47A /* NestedCustomTableViewCell.swift */; };
@@ -80,6 +89,15 @@
 		0A3A10682424A89B00C30655 /* CalculatorStackViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalculatorStackViewController.swift; sourceTree = "<group>"; };
 		0A3A106A2424A8B900C30655 /* ScrollViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollViewController.swift; sourceTree = "<group>"; };
 		0A3A106C2424A9F100C30655 /* NavigatingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigatingViewController.swift; sourceTree = "<group>"; };
+		0A3BE2B824936F0700D0761A /* ImageViewerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageViewerViewController.swift; sourceTree = "<group>"; };
+		0A3BE2BB24936F3D00D0761A /* GalleryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GalleryViewController.swift; sourceTree = "<group>"; };
+		0A3BE2BD24936F7400D0761A /* GalleryItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GalleryItem.swift; sourceTree = "<group>"; };
+		0A3BE2BF24936F9E00D0761A /* BaseModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseModel.swift; sourceTree = "<group>"; };
+		0A3BE2C124936FD400D0761A /* ApiManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiManager.swift; sourceTree = "<group>"; };
+		0A3BE2C32493703400D0761A /* ParsingJson.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParsingJson.swift; sourceTree = "<group>"; };
+		0A3BE2C52493706200D0761A /* UIImageViewExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIImageViewExtension.swift; sourceTree = "<group>"; };
+		0A3BE2C7249370CA00D0761A /* ImageCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageCollectionViewCell.swift; sourceTree = "<group>"; };
+		0A3BE2C8249370CA00D0761A /* ImageCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ImageCollectionViewCell.xib; sourceTree = "<group>"; };
 		0A3EA4712414D44E0070AEEE /* ThirdAutoLayoutViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThirdAutoLayoutViewController.swift; sourceTree = "<group>"; };
 		0A45E4482418E3920037C47A /* NestedTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NestedTableViewController.swift; sourceTree = "<group>"; };
 		0A45E44A2418E4090037C47A /* NestedCustomTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NestedCustomTableViewCell.swift; sourceTree = "<group>"; };
@@ -199,6 +217,22 @@
 			path = AutoLayoutSession2;
 			sourceTree = "<group>";
 		};
+		0A3BE2BA24936F1100D0761A /* GalleryApp */ = {
+			isa = PBXGroup;
+			children = (
+				0A3BE2BF24936F9E00D0761A /* BaseModel.swift */,
+				0A3BE2BD24936F7400D0761A /* GalleryItem.swift */,
+				0A3BE2C124936FD400D0761A /* ApiManager.swift */,
+				0A3BE2C32493703400D0761A /* ParsingJson.swift */,
+				0A3BE2C52493706200D0761A /* UIImageViewExtension.swift */,
+				0A3BE2BB24936F3D00D0761A /* GalleryViewController.swift */,
+				0A3BE2B824936F0700D0761A /* ImageViewerViewController.swift */,
+				0A3BE2C7249370CA00D0761A /* ImageCollectionViewCell.swift */,
+				0A3BE2C8249370CA00D0761A /* ImageCollectionViewCell.xib */,
+			);
+			path = GalleryApp;
+			sourceTree = "<group>";
+		};
 		0A45E456241905D60037C47A /* NestedTableAndCollectionView */ = {
 			isa = PBXGroup;
 			children = (
@@ -249,6 +283,7 @@
 				0A8B128224065C5C00D6B5C9 /* SceneDelegate.swift */,
 				0A8B128024065C5C00D6B5C9 /* AppDelegate.swift */,
 				0A8B128624065C5C00D6B5C9 /* Main.storyboard */,
+				0A3BE2BA24936F1100D0761A /* GalleryApp */,
 				0A8B128C24065C5D00D6B5C9 /* Assets.xcassets */,
 				0A8B128E24065C5D00D6B5C9 /* LaunchScreen.storyboard */,
 				0A8B129124065C5D00D6B5C9 /* Info.plist */,
@@ -395,6 +430,7 @@
 				0A46083E24518AFF001D7DDB /* DiaplayTableViewCell.xib in Resources */,
 				0A45E4552418E8050037C47A /* NestedCustomCollectionViewCell.xib in Resources */,
 				0A8B128824065C5C00D6B5C9 /* Main.storyboard in Resources */,
+				0A3BE2CA249370CA00D0761A /* ImageCollectionViewCell.xib in Resources */,
 				0A45E44D2418E4090037C47A /* NestedCustomTableViewCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -425,6 +461,7 @@
 				0A564270242901310051795E /* FourthInputViewController.swift in Sources */,
 				0A2FB4C72490C3E8006FBAD6 /* RecievingDataViewController.swift in Sources */,
 				0A4B7393249220F4005DD1AC /* RecieveBroadcastMessageViewController.swift in Sources */,
+				0A3BE2C62493706200D0761A /* UIImageViewExtension.swift in Sources */,
 				0A45E44C2418E4090037C47A /* NestedCustomTableViewCell.swift in Sources */,
 				0A8B128B24065C5C00D6B5C9 /* TrainningApp.xcdatamodeld in Sources */,
 				0AE7E0142410FD590057825E /* PageTwoViewController.swift in Sources */,
@@ -434,11 +471,16 @@
 				0A2FB4C4248FEB26006FBAD6 /* PassingDictionaryViewController.swift in Sources */,
 				0A4B7397249225A5005DD1AC /* NotificationViewController.swift in Sources */,
 				0A46083A24518A93001D7DDB /* DisplayDetailsViewController.swift in Sources */,
+				0A3BE2C42493703400D0761A /* ParsingJson.swift in Sources */,
+				0A3BE2C9249370CA00D0761A /* ImageCollectionViewCell.swift in Sources */,
 				0A3A10662424A17600C30655 /* ProgrammaticallyAutoLyoutViewController.swift in Sources */,
+				0A3BE2B924936F0700D0761A /* ImageViewerViewController.swift in Sources */,
 				0A45E4492418E3920037C47A /* NestedTableViewController.swift in Sources */,
 				0A56426A242900F10051795E /* FirstInputViewController.swift in Sources */,
 				0A4B73952492230B005DD1AC /* ProtocolAnd DelegationQuesViewController.swift in Sources */,
+				0A3BE2C224936FD400D0761A /* ApiManager.swift in Sources */,
 				0A3A106B2424A8B900C30655 /* ScrollViewController.swift in Sources */,
+				0A3BE2BE24936F7400D0761A /* GalleryItem.swift in Sources */,
 				0A56426C242901070051795E /* SecondInputViewController.swift in Sources */,
 				0AE7E0162410FD6A0057825E /* PageThreeViewController.swift in Sources */,
 				0A8B128524065C5C00D6B5C9 /* FirstViewController.swift in Sources */,
@@ -448,6 +490,7 @@
 				0A3A10692424A89B00C30655 /* CalculatorStackViewController.swift in Sources */,
 				0A56426E242901220051795E /* ThirdInputViewController.swift in Sources */,
 				0A8B12B824065CDA00D6B5C9 /* FourthViewController.swift in Sources */,
+				0A3BE2C024936F9E00D0761A /* BaseModel.swift in Sources */,
 				0A45E4542418E8050037C47A /* NestedCustomCollectionViewCell.swift in Sources */,
 				0AE7E00E2410FD100057825E /* MainPageViewController.swift in Sources */,
 				0AA58CB824115DA8000E65C0 /* SecondAutoLayoutViewController.swift in Sources */,
@@ -456,6 +499,7 @@
 				0A8B12B624065CD100D6B5C9 /* ThirdViewController.swift in Sources */,
 				0A46083D24518AFF001D7DDB /* DiaplayTableViewCell.swift in Sources */,
 				0A45E45F241915B60037C47A /* CustomCellTableViewCell.swift in Sources */,
+				0A3BE2BC24936F3D00D0761A /* GalleryViewController.swift in Sources */,
 				0AA58CB624115D92000E65C0 /* FirstAutoLayoutViewController.swift in Sources */,
 				0A460838245186E3001D7DDB /* DetailsViewController.swift in Sources */,
 			);
